@@ -1,3 +1,150 @@
-h1{
-  background-color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* barre de navigation */
+.navbar-siao {
+  background-color: #046;
+}
+
+.logo-siao {
+  height: 50px;
+}
+
+.nav-siao .nav-link {
+  color: white;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.nav-siao .nav-link:hover,
+.nav-siao .nav-link.active {
+  text-decoration: underline;
+  color: #fc0;
+}
+
+/* Section héro */
+.hero-siao {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.hero-siao img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+.hero-siao .texte-hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.texte-hero h1 {
+  font-size: 3rem;
+}
+
+.texte-hero p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.bouton-principal {
+  background: #f93;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.bouton-principal:hover {
+  background-color: #e67e00;
+}
+
+/* Section actualités */
+.section-actualites {
+  background: #f4f4f4;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.section-actualites h2 {
+  margin-bottom: 1rem;
+}
+
+.section-actualites ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section-actualites li {
+  margin: 0.5rem 0;
+}
+
+.section-cta {
+  background: #e0f7fa;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.bouton-secondaire {
+  background: #046;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  margin: 0.5rem;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bouton-secondaire:hover {
+  background: #00334d;
+}
+
+/* Footer */
+.footer-siao {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Galerie médias */
+.img-fluid {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+/* Responsive amélioration */
+@media (max-width: 768px) {
+  .texte-hero h1 {
+    font-size: 2rem;
+  }
+
+  .texte-hero p {
+    font-size: 1rem;
+  }
+
+  .img-fluid {
+    height: 150px;
+  }
 }
