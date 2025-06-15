@@ -38,7 +38,7 @@ jobs:
       run: htmlhint "./**/*.html"
 
     - name: Lint CSS
-      run: stylelint "**/*.css"
+      run: stylelint "./**/*.css"
   deploy:
     name: Déploiement GitHub Pages
     needs: lint
