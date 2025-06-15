@@ -2,7 +2,7 @@
 Ce projet est un site web statique pour la présentation de l’édition 2025 du **SIAO** (Salon International de l’Artisanat de Ouagadougou).
 
 ## Démo
-👉 [Voir le site en ligne]()
+👉 [Voir le site en ligne](https://afrifuture.github.io/projet_integration_continue/)
 
 ## Membres du projet
 - **Fabrice TEGAWENDE SAWADOGO**(pages : `index.html`, `programme.html`)
