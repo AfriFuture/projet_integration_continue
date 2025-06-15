@@ -30,9 +30,11 @@ jobs:
       with:
         node-version: 18
 
-    - name: Installer les dépendances
+    - name: Initialiser le projet Node
+      run: npm init -y
+    - name: Installer les dépendances stylelint/htmlhint
       run: |
-        npm install -g htmlhint stylelint stylelint-config-standard
+        npm install --save-dev stylelint stylelint-config-standard htmlhint
 
     - name: Lint HTML
       run: htmlhint "./**/*.html"
